@@ -60,7 +60,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                   <div className="flex items-center">
                     <h3 className="text-2xl font-bold group-hover:font-bold ">
                       <Link
-                        href={`/labs/${slug}`}
+                        href={`/lab/${slug}`}
                         key={slug}
                         className="text-gray-900 group-hover:text-primary-500 dark:text-gray-100"
                       >
