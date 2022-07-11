@@ -30,9 +30,9 @@ export default function Tags({ tags, posts, pagination, initialDisplayPosts }) {
   return (
     <>
       <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0">
-        <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-4xl md:leading-14">
-            Labs
+        <div className="space-x-2 pb-0 md:space-y-5">
+          <h1 className="text-3xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:border-r-2 md:px-6 md:text-3xl md:leading-10">
+            Lab Categories
           </h1>
         </div>
         <div className="flex max-w-lg flex-wrap">
