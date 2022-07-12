@@ -7,6 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 import Card from '@/components/Card'
 import LabListLayout from '@/layouts/LabListLayout'
 import NavCard from '@/components/NavCard'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 3
 
@@ -36,9 +37,12 @@ export default function Home({ labs }) {
             </p>
           </h2>
         </div>
-        <img
+        <Image
+          src={'/static/images/avatar.webp'}
+          width={250}
+          height={250}
+          alt="avatar"
           className="w-5/12 rounded-full md:w-4/12 xl:w-3/12"
-          src="https://bui.blob.core.windows.net/website/avatar.webp"
         />
       </div>
 
