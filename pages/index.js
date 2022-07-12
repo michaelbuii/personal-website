@@ -78,7 +78,7 @@ export default function Home({ labs }) {
                     <div className="space-y-1 xl:col-span-3">
                       <div className="space-y-3">
                         <div>
-                          <h2 className="text-xl font-bold leading-8 tracking-tight ">
+                          <h2 className="text-lg font-semibold leading-8 tracking-tight ">
                             <Link href={`/lab/${slug}`} className="text-gray-900 dark:text-white ">
                               {title}
                             </Link>

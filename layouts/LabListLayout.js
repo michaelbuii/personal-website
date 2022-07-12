@@ -20,7 +20,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
     <>
       <div className="mt-6 divide-y px-2 sm:px-0">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-background-color dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-14">
+          <h1 className="text-2xl font-bold leading-9 tracking-tight text-background-color dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
             {title}
           </h1>
           <div className="relative max-w-lg">
@@ -60,20 +60,20 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                 <div className="group transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700">
                   <div className="flex flex-col justify-between sm:flex-row sm:items-center">
                     <div className="flex items-center">
-                      <h3 className="text-2xl font-bold group-hover:font-bold group-hover:text-primary-500">
+                      <h3 className="text-lg font-semibold group-hover:font-bold group-hover:text-primary-500">
                         {title}
                       </h3>
                     </div>
 
-                    <div className="mt-2 flex items-center justify-between  sm:mt-0">
-                      <p className="mr-2 ml-8 text-left text-sm text-gray-400 group-hover:font-bold dark:text-gray-500 sm:ml-0 sm:text-right md:mb-0">
+                    <div className="mt-1 flex items-center justify-between sm:mt-0">
+                      <p className="mb-1">
                         {tags.map((tag) => (
                           <LabTagSmall key={tag} text={tag} />
                         ))}
                       </p>
                     </div>
                   </div>
-                  <div className="prose max-w-none text-sm text-gray-500 dark:text-gray-400">
+                  <div className="text-med prose max-w-none text-gray-500 dark:text-gray-400">
                     {summary}
                   </div>
                 </div>
