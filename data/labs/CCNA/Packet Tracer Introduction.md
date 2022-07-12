@@ -2,7 +2,7 @@
 title: Packet Tracer Introduction
 date: 2022-07-12
 tags: ['CCNA']
-draft: true
+draft: false
 summary: "First lab for CCNA following Jeremy's IT Lab"
 images: []
 category: ['CCNA']
@@ -28,4 +28,4 @@ We'll be recreating this network topology in packet tracer:!
 
 This was a simple lab, but it was to get familiar with the interface with Packet Tracer.
 The ending diagram in Packet Tracer should look like this:
-![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_31_43.webp)>
+![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_31_43.webp)
