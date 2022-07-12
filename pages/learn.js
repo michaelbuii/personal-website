@@ -11,7 +11,7 @@ import LabListLayout from '@/layouts/LabListLayout'
 import LabTagSmall from '@/components/LabSmallTags'
 import Pagination from '@/components/Pagination'
 
-export const POSTS_PER_PAGE = 10
+export const POSTS_PER_PAGE = 1
 
 export async function getStaticProps() {
   const tags = await getAllCategories('labs')
