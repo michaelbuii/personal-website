@@ -59,9 +59,6 @@ export default function Home({ labs }) {
           <h1 className="text-4xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
             Latest Labs
           </h1>
-          <p className="text-md leading-4 text-gray-500 dark:text-primary-400">
-            {siteMetadata.description}
-          </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!labs.length && 'No posts found.'}
