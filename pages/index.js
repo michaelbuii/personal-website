@@ -37,7 +37,7 @@ export default function Home({ labs }) {
           </h2>
         </div>
         <img
-          className="w-4/12 rounded-full md:w-4/12 xl:w-3/12"
+          className="w-5/12 rounded-full md:w-4/12 xl:w-3/12"
           src="https://bui.blob.core.windows.net/website/avatar.webp"
         />
       </div>

@@ -34,11 +34,18 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="link-underline dark:link-underline-black rounded-xl p-1 font-medium text-gray-900 hover:bg-gray-600/10 dark:text-gray-100 sm:p-4"
                 >
                   {link.title}
                 </Link>
               ))}
+              <Link
+                key="resume"
+                href="https://bui.blob.core.windows.net/doc/Michael_Resume.pdf"
+                className="link-underline dark:link-underline-black rounded-xl p-1 font-medium text-gray-900 hover:bg-gray-600/10 dark:text-gray-100 sm:p-4"
+              >
+                Resume
+              </Link>
             </div>
             <ThemeSwitch />
             <MobileNav />
