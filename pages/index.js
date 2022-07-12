@@ -9,19 +9,16 @@ import LabListLayout from '@/layouts/LabListLayout'
 import NavCard from '@/components/NavCard'
 import Image from '@/components/Image'
 
-import NewsletterForm from '@/components/NewsletterForm'
-
 const MAX_DISPLAY = 3
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
   const labs = await getAllFilesFrontMatter('labs')
-  const image = 'avatar.png'
 
-  return { props: { posts, labs, image } }
+  return { props: { posts, labs } }
 }
 
-export default function Home({ labs, image }) {
+export default function Home({ labs }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
@@ -33,7 +30,7 @@ export default function Home({ labs, image }) {
           </h1>
           <h2 className="prose pt-5 text-lg leading-8 text-gray-600 dark:text-gray-300">
             {`${siteMetadata.description}. I love learning new skills and this site is a place where I document the new skills I come across. `}
-            <p> </p>
+            <p>In my spare time I like to also like to </p>
           </h2>
         </div>
         <img

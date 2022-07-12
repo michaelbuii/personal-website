@@ -11,7 +11,7 @@ import LabListLayout from '@/layouts/LabListLayout'
 import LabTagSmall from '@/components/LabSmallTags'
 import Pagination from '@/components/Pagination'
 
-export const POSTS_PER_PAGE = 2
+export const POSTS_PER_PAGE = 10
 
 export async function getStaticProps() {
   const tags = await getAllCategories('labs')
@@ -32,7 +32,7 @@ export default function Tags({ tags, posts, pagination, initialDisplayPosts }) {
       <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0">
         <div className="space-x-2 pb-0 md:space-y-5">
           <h1 className="text-3xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:border-r-2 md:px-6 md:text-3xl md:leading-10">
-            Lab Categories
+            Categories
           </h1>
         </div>
         <div className="flex max-w-lg flex-wrap">
@@ -57,7 +57,7 @@ export default function Tags({ tags, posts, pagination, initialDisplayPosts }) {
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
-        title="Recent Labs"
+        title="Recent Learning"
       />
     </>
   )

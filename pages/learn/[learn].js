@@ -15,9 +15,9 @@ export async function getStaticPaths() {
   const tags = await getAllTags('labs')
 
   return {
-    paths: Object.keys(tags).map((labs) => ({
+    paths: Object.keys(tags).map((learn) => ({
       params: {
-        labs,
+        learn,
       },
     })),
     fallback: false,
@@ -27,18 +27,18 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter('labs')
   const filteredPosts = allPosts.filter(
-    (post) => post.draft !== true && post.tags.map((t) => kebabCase(t)).includes(params.labs)
+    (post) => post.draft !== true && post.tags.map((t) => kebabCase(t)).includes(params.learn)
   )
 
   // rss
   if (filteredPosts.length > 0) {
-    const rss = generateRss(filteredPosts, `labs/${params.lab}/feed.xml`)
-    const rssPath = path.join(root, 'public', 'labs', params.labs)
+    const rss = generateRss(filteredPosts, `learn/${params.learn}/feed.xml`)
+    const rssPath = path.join(root, 'public', 'learn', params.learn)
     fs.mkdirSync(rssPath, { recursive: true })
     fs.writeFileSync(path.join(rssPath, 'feed.xml'), rss)
   }
 
-  return { props: { posts: filteredPosts, tag: params.labs } }
+  return { props: { posts: filteredPosts, tag: params.learn } }
 }
 
 export default function Tag({ posts, tag }) {
