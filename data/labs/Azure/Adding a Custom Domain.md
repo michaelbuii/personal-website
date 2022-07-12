@@ -19,11 +19,15 @@ In this lab we'll be adding the `builab.ca` domain to our tenant.
 ## Instructions
 
 1. Have a domain name ready from a domain registrar. I personally bought mine from `goDaddy`
-2. In the `Azure Active Directory` Blade click on `Add custom domain`![](https://bui.blob.core.windows.net/labs/Lab_2022_07_11_28_22.webp)
-3. When you enter in your domain name it will prompt you to verify your domain ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_11_52_24.webp)
+2. In the `Azure Active Directory` Blade click on `Add custom domain`
+<p align = 'center'><img src = 'https://bui.blob.core.windows.net/labs/Lab_2022_07_11_28_22.webp'></p>
+
+3. When you enter in your domain name it will prompt you to verify your domain
+<p align = 'center'><img src = 'https://bui.blob.core.windows.net/labs/Lab_2022_07_11_52_24.webp'></p>
 4. You add the record to your DNS record at the site where you registered your domain
 
 ## Conclusion
 
 Your custom domain should be ready to use. When you go to add a new user you'll have the option to select the new domain name.
-![](https://bui.blob.core.windows.net/labs/Lab_2022_07_11_35_26.webp)
+
+<p align = 'center'><img src = 'https://bui.blob.core.windows.net/labs/Lab_2022_07_11_35_26.webp'></p>
