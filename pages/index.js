@@ -85,7 +85,7 @@ export default function Home({ labs }) {
                           </h2>
                           <div className="flex flex-wrap">
                             {tags.map((tag) => (
-                              <LabTagSmall key={tag} text={tag} href={`/learn/${slug}`} />
+                              <LabTagSmall key={tag} text={tag} />
                             ))}
                           </div>
                         </div>
