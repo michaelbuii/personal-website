@@ -7,7 +7,6 @@ import formatDate from '@/lib/utils/formatDate'
 import Card from '@/components/Card'
 import LabListLayout from '@/layouts/LabListLayout'
 import NavCard from '@/components/NavCard'
-import Image from '@/components/Image'
 
 const MAX_DISPLAY = 3
 
@@ -29,22 +28,30 @@ export default function Home({ labs }) {
             Hi, I'm <span className="text-primary-500 dark:text-primary-500">Michael</span>
           </h1>
           <h2 className="prose pt-5 text-lg leading-8 text-gray-600 dark:text-gray-300">
-            {`${siteMetadata.description}. I love learning new skills and this site is a place where I document the new skills I come across. `}
-            <p>In my spare time I like to also like to </p>
+            {`${siteMetadata.description}. I love learning new skills and this site is a place where I share what I've learned `}
+            <p></p>
+            <p>
+              By documenting my labs and projects, I hope to create an archive of notes that I and
+              other people can refer to.
+            </p>
           </h2>
         </div>
         <img
           className="w-4/12 rounded-full md:w-4/12 xl:w-3/12"
-          src="https://michaelbui.ca/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F2ce95aa1-c828-4c32-bccd-8941808bf534%252FIMG_2454-small.jpg%3Ftable%3Dblock%26id%3D7b2b0c49-9683-4e9a-84cd-56f094db2f82%26cache%3Dv2&w=640&q=75"
+          src="https://bui.blob.core.windows.net/website/avatar.webp"
         />
       </div>
 
       <div className="mx-8 grid grid-flow-row grid-cols-1 grid-rows-2 justify-between gap-10 py-8 sm:grid-cols-2 sm:grid-rows-1">
-        <NavCard href="/lab" title="Labs" description="See the things I'm working on"></NavCard>
+        <NavCard
+          href="/learn"
+          title="Learn"
+          description="Browse the catalog of labs I've documented"
+        ></NavCard>
         <NavCard
           href="/projects"
           title="Projects"
-          description="See the things I'm working on"
+          description="See the things I've worked on"
         ></NavCard>
       </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
