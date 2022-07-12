@@ -57,13 +57,12 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                 key={slug}
                 className="text-gray-900 group-hover:text-primary-500 dark:text-gray-100"
               >
-                <div
-                  key={slug}
-                  className="group transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700"
-                >
+                <div className="group transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700">
                   <div className="flex flex-col justify-between sm:flex-row sm:items-center">
                     <div className="flex items-center">
-                      <h3 className="text-2xl font-bold group-hover:font-bold ">{title}</h3>
+                      <h3 className="text-2xl font-bold group-hover:font-bold group-hover:text-primary-500">
+                        {title}
+                      </h3>
                     </div>
 
                     <div className="mt-2 flex items-center justify-between  sm:mt-0">
