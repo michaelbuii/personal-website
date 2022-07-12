@@ -10,10 +10,9 @@ import Image from 'next/image'
 const MAX_DISPLAY = 3
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
   const labs = await getAllFilesFrontMatter('labs')
 
-  return { props: { posts, labs } }
+  return { props: { labs } }
 }
 
 export default function Home({ labs }) {
