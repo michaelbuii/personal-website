@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
+import LabTagSmall from '@/components/LabSmallTags'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
@@ -84,7 +84,7 @@ export default function Home({ labs }) {
                           </h2>
                           <div className="flex flex-wrap">
                             {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
+                              <LabTagSmall key={tag} text={tag} />
                             ))}
                           </div>
                         </div>
