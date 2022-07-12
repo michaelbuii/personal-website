@@ -7,6 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 import Card from '@/components/Card'
 import LabListLayout from '@/layouts/LabListLayout'
 import NavCard from '@/components/NavCard'
+import Image from '@/components/Image'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -15,16 +16,32 @@ const MAX_DISPLAY = 3
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
   const labs = await getAllFilesFrontMatter('labs')
+  const image = 'avatar.png'
 
-  return { props: { posts, labs } }
+  return { props: { posts, labs, image } }
 }
 
-export default function Home({ labs }) {
+export default function Home({ labs, image }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
-      <h1>test</h1>
+      <div className="mb-12 flex flex-col-reverse items-center gap-x-12 sm:flex-row xl:flex-row">
+        <div className="pt-6">
+          <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Hi, I'm <span className="text-primary-500 dark:text-primary-500">Michael</span>
+          </h1>
+          <h2 className="prose pt-5 text-lg leading-8 text-gray-600 dark:text-gray-300">
+            {`${siteMetadata.description}. I love learning new skills and this site is a place where I document the new skills I come across. `}
+            <p> </p>
+          </h2>
+        </div>
+        <img
+          className="w-4/12 rounded-full md:w-4/12 xl:w-3/12"
+          src="https://michaelbui.ca/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F2ce95aa1-c828-4c32-bccd-8941808bf534%252FIMG_2454-small.jpg%3Ftable%3Dblock%26id%3D7b2b0c49-9683-4e9a-84cd-56f094db2f82%26cache%3Dv2&w=640&q=75"
+        />
+      </div>
+
       <div className="mx-8 grid grid-flow-row grid-cols-1 grid-rows-2 justify-between gap-10 py-8 sm:grid-cols-2 sm:grid-rows-1">
         <NavCard href="/lab" title="Labs" description="See the things I'm working on"></NavCard>
         <NavCard

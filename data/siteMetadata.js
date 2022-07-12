@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Michael Bui',
   author: 'Michael Bui',
   headerTitle: 'Michael Bui',
-  description: 'A place for me to share my journey in IT',
+  description: 'Welcome to my personal site where I share my journey into IT',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'michael-bui.com',
