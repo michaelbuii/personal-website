@@ -15,13 +15,17 @@ This is the first lab I'll be doing while following Jeremy's IT Lab CCNA playlis
 Documentation: [Youtube](https://www.youtube.com/watch?v=kHqJ74J2sDU&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 We'll be recreating this network topology in packet tracer:!
-
-<p align = 'center'><img src ='https://bui.blob.core.windows.net/labs/Lab_2022_07_12_22_30.webp'></p>
+![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_22_30.webp)
 
 ## Instructions
 
-1. The bottom left provides icons to select different devices
-<p align = "center">
-<img src="https://bui.blob.core.windows.net/labs/Lab_2022_07_12_23_11.webp">
-</p>
-2.
+1. The bottom left provides icons to select different devices ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_23_11.webp)
+
+2. Use the thunderbolt icon to automatically choose connection types ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_28_55.webp)
+3. Connect all the devices like the diagram
+
+## Conclusion
+
+This was a simple lab, but it was to get familiar with the interface with Packet Tracer.
+The ending diagram in Packet Tracer should look like this:
+![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_31_43.webp)>
