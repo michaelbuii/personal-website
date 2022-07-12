@@ -52,35 +52,33 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           {displayPosts.map((frontMatter, index) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
-              <div
+              <Link
+                href={`/lab/${slug}`}
                 key={slug}
-                className="group transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700"
+                className="text-gray-900 group-hover:text-primary-500 dark:text-gray-100"
               >
-                <div className="flex flex-col justify-between sm:flex-row sm:items-center">
-                  <div className="flex items-center">
-                    <h3 className="text-2xl font-bold group-hover:font-bold ">
-                      <Link
-                        href={`/lab/${slug}`}
-                        key={slug}
-                        className="text-gray-900 group-hover:text-primary-500 dark:text-gray-100"
-                      >
-                        {title}
-                      </Link>
-                    </h3>
-                  </div>
+                <div
+                  key={slug}
+                  className="group transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700"
+                >
+                  <div className="flex flex-col justify-between sm:flex-row sm:items-center">
+                    <div className="flex items-center">
+                      <h3 className="text-2xl font-bold group-hover:font-bold ">{title}</h3>
+                    </div>
 
-                  <div className="mt-2 flex items-center justify-between  sm:mt-0">
-                    <p className="mr-2 ml-8 text-left text-sm text-gray-400 group-hover:font-bold dark:text-gray-500 sm:ml-0 sm:text-right md:mb-0">
-                      {tags.map((tag) => (
-                        <LabTagSmall key={tag} text={tag} />
-                      ))}
-                    </p>
+                    <div className="mt-2 flex items-center justify-between  sm:mt-0">
+                      <p className="mr-2 ml-8 text-left text-sm text-gray-400 group-hover:font-bold dark:text-gray-500 sm:ml-0 sm:text-right md:mb-0">
+                        {tags.map((tag) => (
+                          <LabTagSmall key={tag} text={tag} />
+                        ))}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="prose max-w-none text-sm text-gray-500 dark:text-gray-400">
+                    {summary}
                   </div>
                 </div>
-                <div className="prose max-w-none text-sm text-gray-500 dark:text-gray-400">
-                  {summary}
-                </div>
-              </div>
+              </Link>
             )
           })}
         </div>

@@ -1,5 +1,5 @@
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
+import ProjectTag from '@/components/projectTag'
 import siteMetadata from '@/data/siteMetadata'
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
@@ -89,7 +89,7 @@ export default function ProjectsLayout({
                           Technologies Used:{' '}
                         </p>
                         {tags.map((tag) => (
-                          <Tag key={tag} text={tag} />
+                          <ProjectTag key={tag} text={tag} />
                         ))}
                       </div>
                     </div>
