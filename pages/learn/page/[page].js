@@ -2,7 +2,7 @@ import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import LabListLayout from '@/layouts/LabListLayout'
-import { POSTS_PER_PAGE } from '../../labs'
+import { POSTS_PER_PAGE } from '../../learn'
 
 export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter('labs')
