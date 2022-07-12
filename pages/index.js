@@ -4,8 +4,6 @@ import LabTagSmall from '@/components/LabSmallTags'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import Card from '@/components/Card'
-import LabListLayout from '@/layouts/LabListLayout'
 import NavCard from '@/components/NavCard'
 import Image from 'next/image'
 

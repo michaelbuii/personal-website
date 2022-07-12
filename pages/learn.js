@@ -5,11 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllCategories } from '@/lib/labcategories'
 import kebabCase from '@/lib/utils/kebabCase'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
-import Tag from '@/components/Tag'
 import LabListLayout from '@/layouts/LabListLayout'
-import LabTagSmall from '@/components/LabSmallTags'
-import Pagination from '@/components/Pagination'
 
 export const POSTS_PER_PAGE = 10
 
