@@ -9,8 +9,8 @@ const siteMetadata = require('../data/siteMetadata')
   const pages = await globby([
     'pages/*.js',
     'pages/*.tsx',
-    'data/blog/**/*.mdx',
-    'data/blog/**/*.md',
+    'data/labs/**/*.mdx',
+    'data/labs/**/*.md',
     'public/tags/**/*.xml',
     '!pages/_*.js',
     '!pages/_*.tsx',
@@ -35,7 +35,8 @@ const siteMetadata = require('../data/siteMetadata')
                 }
                 const path = page
                   .replace('pages/', '/')
-                  .replace('data/blog', '/blog')
+
+                  .replace('data/labs', '/lab')
                   .replace('public/', '/')
                   .replace('.js', '')
                   .replace('.tsx', '')

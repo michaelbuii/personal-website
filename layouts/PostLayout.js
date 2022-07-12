@@ -10,10 +10,6 @@ import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import { useRouter } from 'next/router'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
-const discussUrl = (slug) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/lab/${slug}`)}`
-
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
@@ -23,7 +19,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   return (
     <SectionContainer>
       <BlogSEO
-        url={`${siteMetadata.siteUrl}/blog/${slug}`}
+        url={`${siteMetadata.siteUrl}/lab/${slug}`}
         authorDetails={authorDetails}
         {...frontMatter}
       />
