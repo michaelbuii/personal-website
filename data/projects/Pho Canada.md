@@ -26,7 +26,7 @@ When updates are pushed to the repo, GitHub actions will run the workflow that A
 
 ## Custom Domain and SSL
 
-To add a custom domain, we can go to the Web App resource in the Azure portal and click on the Custom Domain blade. The setup for a custom domain is the same process that we used for our lab [here](/labAzure/Adding%20a%20Custom%20Domain)
+To add a custom domain, we can go to the Web App resource in the Azure portal and click on the Custom Domain blade. The setup for a custom domain is the same process that we used for our lab [here](/lab/Azure/Adding%20a%20Custom%20Domain)
 
 SSL is freely provided and managed by Microsoft, so we can have https for our site.
 
