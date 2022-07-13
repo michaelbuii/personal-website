@@ -4,7 +4,7 @@ date: 2022-07-12
 tags: ['CCNA']
 draft: false
 summary: 'Choosing the connection types for devices'
-images: []
+image:
 category: ['CCNA']
 ---
 

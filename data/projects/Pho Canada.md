@@ -4,8 +4,8 @@ date: 2022-07-10
 tags: ['HTML', 'CSS', 'Javascript']
 draft: false
 summary: Website to for local Vietnamese restaurant
-images: ['/static/images/pho-canada.webp']
-category: []
+image: '/static/images/pho-canada.webp'
+category: ['Project']
 ---
 
 ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_05_14.webp)

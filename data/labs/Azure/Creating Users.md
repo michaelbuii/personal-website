@@ -4,7 +4,7 @@ date: 2022-07-12
 tags: ['Azure', 'Azure-Active-Directory']
 draft: false
 summary: 'Create users using the portal, CLI and Powershell'
-images: []
+image:
 category: ['Azure']
 ---
 
@@ -33,11 +33,13 @@ We're blocking signin so no one can log into this account
 ### Azure CLI
 
 Documentation: [Microsoft Docs](https://docs.microsoft.com/en-us/cli/azure/ad/user?view=azure-cli-latest#az_ad_user_create)
+
 Create a user with the following
+Azure CLI is currently not as feature rich as the Portal / PowerShell
 | username | buicli |
 | ---------------- | ----------- |
 | Initial Password | Passw0rd |
-Azure CLI is currently not as feature rich as the Portal / PowerShell
+
 The following options are available:
 
 ```shell
@@ -58,6 +60,7 @@ az ad user create --display-name buicli --password Passw0rd --user-principal-nam
 ### PowerShell
 
 Documentation: [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureaduser?view=azureadps-2.0)
+
 PowerShell creation is highly customizable and great to learn for automating user setup
 
 ```powershell

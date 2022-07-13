@@ -3,7 +3,6 @@ import ProjectTag from '@/components/projectTag'
 import siteMetadata from '@/data/siteMetadata'
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
-import formatDate from '@/lib/utils/formatDate'
 import Image from '@/components/Image'
 
 export default function ProjectsLayout({
