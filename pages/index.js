@@ -35,7 +35,7 @@ export default function Home({ labs }) {
           </h2>
         </div>
         <Image
-          src={'/static/images/doggo.jpg'}
+          src={'/static/images/avatar.webp'}
           width={250}
           height={250}
           alt="avatar"
