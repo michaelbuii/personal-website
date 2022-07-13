@@ -4,8 +4,8 @@ const siteMetadata = {
   headerTitle: 'Michael Bui',
   description: 'Welcome to my personal site where I share my journey into IT',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'michael-bui.com',
+  theme: 'dark', // system, dark or light
+  siteUrl: 'michaelbui.me',
   siteRepo: 'https://github.com/michaelbuii/personal-website',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',

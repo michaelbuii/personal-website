@@ -29,8 +29,8 @@ export default function Home({ labs }) {
             {`${siteMetadata.description}. I love learning new skills and this site is a place where I share what I've learned `}
             <p></p>
             <p>
-              By documenting my labs and projects, I hope to create an archive of notes that I and
-              other people can refer to.
+              By documenting my labs and projects, I hope to create a knowledge base of information
+              people can refer to.
             </p>
           </h2>
         </div>
