@@ -86,7 +86,7 @@ export default function ProjectsLayout({
                       <div className="flex flex-wrap pt-2">
                         <p className="mr-3 text-sm font-medium uppercase text-gray-500 dark:text-gray-300">
                           {' '}
-                          Technologies Used:{' '}
+                          Built With:{' '}
                         </p>
                         {tags.map((tag) => (
                           <ProjectTag key={tag} text={tag} />
