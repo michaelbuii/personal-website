@@ -1,5 +1,5 @@
 ---
-title: Connecting Devices in Packet Tracer
+title: CCNA Lab-01 Connecting Devices in Packet Tracer
 date: 2022-07-12
 tags: ['CCNA']
 draft: false

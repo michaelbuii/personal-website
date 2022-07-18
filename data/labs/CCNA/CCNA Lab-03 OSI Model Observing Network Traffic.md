@@ -1,5 +1,5 @@
 ---
-title: OSI Model Observing Network Traffic
+title: CCNA Lab-03 OSI Model Observing Network Traffic
 date: 2022-07-13
 tags: ['CCNA']
 draft: false

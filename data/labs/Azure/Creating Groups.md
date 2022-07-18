@@ -40,7 +40,8 @@ Example: Creates a group named `Static Test Group`
 az ad group create --display-name 'Static Test Group' --mail-nickname 'Static' --description "Static group made for testing purposes"
 ```
 
-###PowerShell
+### PowerShell
+
 Documentation: [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/azuread/new-azureadgroup?view=azureadps-2.0)
 
 Available parameters
@@ -80,7 +81,8 @@ New-AzureADMSGroup
 Example: Creating a dynamic group
 
 ```powershell
-New-AzureADMSGroup -Description "Test Dynamic Group made with PS" -DisplayName "Test Dynamic Group" -MailEnabled $false -SecurityEnabled $true -MailNickname "N/A" -GroupTypes "DynamicMembership" -MembershipRule "(user.displayName -contains ""bui"")" -MembershipRuleProccessingState "On"
+New-AzureADMSGroup -Description "Test Dynamic Group made with PS"
+-DisplayName "Test Dynamic Group" -MailEnabled $false -SecurityEnabled $true -MailNickname "N/A" -GroupTypes "DynamicMembership" -MembershipRule "(user.displayName -contains ""bui"")" -MembershipRuleProcessingState "On"
 ```
 
 Result:
