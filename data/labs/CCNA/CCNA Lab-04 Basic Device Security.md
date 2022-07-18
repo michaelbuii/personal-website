@@ -1,7 +1,7 @@
 ---
 title: CCNA Lab-04 Basic Device Security
 date: 2022-07-17
-tags: ['']
+tags: ['CCNA']
 draft: false
 summary: 'Configure basic security settings on Cisco router & switch'
 image: ''
@@ -12,7 +12,7 @@ category: ['CCNA']
 
 The purpose of this lab is to get familiar with Cisco's IOS CLI.
 
-We are going to configure a Cisco router's basic security settings.
+We are going to configure a Cisco router & switch's basic security settings.
 
 This is the layout of the network we'll be looking at:
 ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_17_48_24.webp)
