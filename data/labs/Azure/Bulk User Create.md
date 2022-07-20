@@ -1,6 +1,6 @@
 ---
 title: Bulk User Create
-date: 2022-07-16
+date: 2022/07/16
 tags: ['Azure', 'Azure-Active-Directory']
 draft: false
 summary: 'Create users in bulk in AAD'

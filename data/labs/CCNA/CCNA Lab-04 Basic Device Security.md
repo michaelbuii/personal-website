@@ -1,6 +1,6 @@
 ---
 title: CCNA Lab-04 Basic Device Security
-date: 2022-07-17
+date: 2022/07/17
 tags: ['CCNA']
 draft: false
 summary: 'Configure basic security settings on Cisco router & switch'

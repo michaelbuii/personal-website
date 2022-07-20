@@ -1,6 +1,6 @@
 ---
 title: Creating Groups
-date: 2022-07-16
+date: 2022/07/16
 tags: ['Azure', 'Azure-Active-Directory']
 draft: false
 summary: 'Create groups in Azure Active Directory'

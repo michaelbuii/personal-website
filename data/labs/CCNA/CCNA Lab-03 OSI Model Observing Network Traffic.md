@@ -1,6 +1,6 @@
 ---
 title: CCNA Lab-03 OSI Model Observing Network Traffic
-date: 2022-07-13
+date: 2022/07/13
 tags: ['CCNA']
 draft: false
 summary: 'Using simulation mode in packet tracer to observe network traffic'

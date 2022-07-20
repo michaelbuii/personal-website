@@ -1,6 +1,6 @@
 ---
 title: Adding a Custom Domain
-date: 2022-07-11
+date: 2022/07/11
 tags: ['Azure', 'Azure-Active-Directory']
 draft: false
 summary: Add a custom domain name to your Azure Active Directory

@@ -1,6 +1,6 @@
 ---
 title: Creating Users
-date: 2022-07-12
+date: 2022/07/12
 tags: ['Azure', 'Azure-Active-Directory']
 draft: false
 summary: 'Create users using the portal, CLI and Powershell'

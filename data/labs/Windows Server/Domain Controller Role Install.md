@@ -1,6 +1,6 @@
 ---
 title: Domain Controller Role Install
-date: 2022-07-14
+date: 2022/07/14
 tags: ['Windows-Server']
 draft: false
 summary: 'Install the Domain Controller Role on the server and promote it to a Domain Controller'

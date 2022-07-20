@@ -1,6 +1,6 @@
 ---
 title: Windows Autopilot
-date: 2022-07-15
+date: 2022/07/15
 tags: ['Microsoft-Endpoint']
 draft: false
 summary: 'Join a new device to your domain automatically'

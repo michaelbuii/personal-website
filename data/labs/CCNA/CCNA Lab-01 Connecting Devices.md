@@ -1,6 +1,6 @@
 ---
 title: CCNA Lab-01 Connecting Devices in Packet Tracer
-date: 2022-07-11
+date: 2022/07/11
 tags: ['CCNA']
 draft: false
 summary: 'Choosing the connection types for devices'

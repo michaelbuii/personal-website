@@ -1,6 +1,6 @@
 ---
 title: Enabling Multi-Factor Authentication
-date: 2022-07-16
+date: 2022/07/16
 tags: ['Azure', 'Security']
 draft: false
 summary: 'Enabling MFA in multiple ways'
