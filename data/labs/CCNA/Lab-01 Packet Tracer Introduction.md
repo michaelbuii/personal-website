@@ -1,5 +1,5 @@
 ---
-title: CCNA Lab-02 Packet Tracer Introduction
+title: Lab-01 Packet Tracer Introduction
 date: 2022/07/12
 tags: ['CCNA']
 draft: false

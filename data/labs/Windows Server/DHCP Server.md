@@ -10,6 +10,8 @@ category: ['Windows-Server']
 
 ## Overview
 
+Documentation: [Microsoft Docs](https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/install-configure-dhcp-server-workgroup)
+
 A DHCP server automatically provides and assigns IP addresses & IP configurations to client devices from a pool of addresses set up.
 
 In this lab we're going to install the DHCP server role on SVR01 and assign a pool of addresses to give out.
