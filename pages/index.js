@@ -7,7 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 import NavCard from '@/components/NavCard'
 import Image from 'next/image'
 
-const MAX_DISPLAY = 3
+const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
   const labs = await getAllFilesFrontMatter('labs')
