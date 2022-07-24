@@ -29,7 +29,7 @@ This is the quickest way to enable MFA for all users. When enabled, all users in
 
 ---
 
-You can enable MFA for specific users. This is not really recommended because it can be hard to keep track of which users are set up for MFA.
+You can enable MFA for specific users.
 
 1. Browse to `Azure Active Directory` -> `Users` -> `Per-user MFA`
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_16_54_57.webp)

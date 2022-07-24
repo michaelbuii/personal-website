@@ -1,5 +1,5 @@
 ---
-title: Lab-03 Basic Device Security
+title: Basic Device Security
 date: 2022/07/17
 tags: ['CCNA']
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: Lab-04 Ethernet LAN Switching
+title: Ethernet LAN Switching
 date: 2022/07/20
 tags: ['CCNA']
 draft: false
