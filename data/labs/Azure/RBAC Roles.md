@@ -2,7 +2,7 @@
 title: RBAC Roles
 date: 2022/07/26
 tags: ['Azure', 'Governance']
-draft: False
+draft: false
 summary: 'Create a custom RBAC role & assign it'
 image: ''
 category: ['Azure']
