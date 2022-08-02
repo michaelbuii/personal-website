@@ -3,7 +3,7 @@ title: S3 Buckets
 date: 2022/08/01
 tags: ['AWS', 'Storage']
 draft: false
-summary: ''
+summary: 'Creating an S3 bucket & base configurations'
 image: ''
 category: ['AWS']
 ---
@@ -12,7 +12,7 @@ category: ['AWS']
 
 Documentation: [AWS docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)
 
-Buckets are containers for storing data objects in AWS. In this lab, we'll go through a few for the settings available wiith S3 buckets.
+Buckets are containers for storing data objects in AWS. In this lab, we'll go through a few of the settings available with S3 buckets.
 
 We'll look at:
 
@@ -76,13 +76,14 @@ We're going to allow public anonymous access to only read the objects in our buc
 
 You can create lifecycle rules for all objects inside the bucket or based on prefixes, tags, or object size.
 
-1. Setting a rule scope
+1. Navigate to `management` to configure lifecycle rules
+1. Setting a rule scope - here we're going to only apply the rule to certain objects
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_01_58_12.webp)
-2. Set filters to apply to items
+1. Set filters to apply to items - we'll apply this rule to objects with the documents prefix
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_01_00_46.webp)
-3. Select what you want to do to the objects
+1. Select what you want to do to the objects
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_01_01_39.webp)
-4. Select where to move the items
+1. Select where to move the items
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_01_02_34.webp)
-5. Now items inside the documents prefix (folder) will be placed in glacier deep archive after 15 days
+1. Now items inside the documents prefix (folder) will be placed in glacier deep archive after 15 days
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_01_03_49.webp)
