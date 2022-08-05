@@ -2,7 +2,7 @@
 title: Working with Routers & Configuring IPv4
 date: 2022/08/05
 tags: ['CCNA']
-draft: true
+draft: false
 summary: 'Configure the network interfaces a router'
 image: ''
 category: ['CCNA']
