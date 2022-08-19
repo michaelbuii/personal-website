@@ -10,7 +10,7 @@ category: ['AWS']
 
 ## Overview
 
-As best practice, you should only use the root user account to perform select service management tasks. You should use an IAM user to perform other activities in side AWS
+As best practice, you should only use the root user account to perform select service management tasks. You should use an IAM user to perform other activities inside AWS
 
 ## Instructions
 
