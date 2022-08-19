@@ -5,7 +5,7 @@ tags: ['AWS', 'EC2']
 draft: false
 summary: 'Creating an EC2 Linux Instance'
 image: ''
-category: ['AWS']
+category: ['AW']
 ---
 
 ## Overview
@@ -24,7 +24,7 @@ category: ['AWS']
 5. Create a key pair if you don't already have one. Choose .ppk for use with PuTTY to ssh into the linux instance
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_10_08_05.webp)
 6. Set the network to be the default vpc and create a new security group to allow SSH traffic from your IP & HTTP trafic from the internet
-   ![](Pasted%20image%2020220810201234.png)
+   ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_19_18_04.webp)
 7. Under advanced settings, paste the following code into `user data`
 
 ```bash
