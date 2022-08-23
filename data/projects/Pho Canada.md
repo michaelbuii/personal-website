@@ -3,7 +3,7 @@ title: Pho Canada Website
 date: 2022-07-10
 tags: ['HTML', 'CSS', 'Javascript']
 draft: false
-summary: Website to for local Vietnamese restaurant
+summary: Website for local Vietnamese restaurant
 image: '/static/images/pho-canada.webp'
 category: ['Project']
 ---
