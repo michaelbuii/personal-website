@@ -38,8 +38,6 @@ In this lab, we'll create an EBS volume & attach it to an EC2 instance. We'll th
 
 ## Verify EBS Volume is Attached
 
-Documentation for making EBS volumes available for use [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
-
 1. SSH into the `Lab-1` Instance
 2. Use `lsblk` command to list disks available on the EC2 instance
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_13_44.webp)
@@ -47,19 +45,23 @@ Documentation for making EBS volumes available for use [here](https://docs.aws.a
 
 ## Using the EBS Volume
 
+Documentation for making EBS volumes available for use [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
+
 - New volumes are raw block devices and need a file system before we can mount and use them
 
 1. Format the EBS volume as xfs by running `sudo mkfs -t xfs /dev/xvdf`
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_18_15.webp)
 2. Mount the volume
-   2a. Create a directory with
-   ```bash
-   sudo mkdir /data
-   ```
-   2b. Mount with
-   ```bash
-   sudo mount /dev/xvdf /data
-   ```
+
+- Create a directory with
+  ```bash
+  sudo mkdir /data
+  ```
+- Mount with
+  ```bash
+  sudo mount /dev/xvdf /data
+  ```
+
 3. Go into `/data` and create some files
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_25_26.webp)
 
