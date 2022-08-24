@@ -20,7 +20,7 @@ In this lab, we'll look at creating a snapshot for an EBS volume and creating a 
 
 ## Moving EBS Volumes with Snapshots
 
-In the the [Create and Attach EBS Volumes](file:///Create%2520and%2520Attach%2520EBS%2520Volumes) lab we created an EBS volume in the west-2a availability zone. We're going to create a snapshot of that EBS volume and move it to west-2b
+In the the [Create and Attach EBS Volumes](/lab/AWS/Create%20and%20Attach%20EBS%20Volumes) lab we created an EBS volume in the west-2a availability zone. We're going to create a snapshot of that EBS volume and move it to west-2b
 
 1. Go to `EC2` -> `Elastic Block Store` -> `Snapshots` -> `Create Snapshot`
 2. Create a snapshot of a volume
@@ -30,7 +30,7 @@ In the the [Create and Attach EBS Volumes](file:///Create%2520and%2520Attach%252
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_29_05.webp)
 5. Select the us-west-2b availability zone
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_30_07.webp)
-6. Attach the volume to the `Lab-3` EC2 instance we made in a previous [lab](/Create%20and%20Attach%20EBS%20Volumes)
+6. Attach the volume to the `Lab-3` EC2 instance we made in a previous [lab](/lab/AWS/Create%20and%20Attach%20EBS%20Volumes)
 7. SSH into `Lab-3`
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_23_35_47.webp)
 8. Mount the volume
