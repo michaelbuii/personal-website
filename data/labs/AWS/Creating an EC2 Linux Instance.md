@@ -5,10 +5,14 @@ tags: ['AWS', 'EC2']
 draft: false
 summary: 'Creating an EC2 Linux Instance'
 image: ''
-category: ['AW']
+category: ['AWS']
 ---
 
 ## Overview
+
+EC2 instances are virtual machines of varying CPU, memory, storage, and networking capacity. They provide flexible resources for your applications.
+
+In this lab, we'll be launching a Linux EC2 Instance running an http web server.
 
 ## Instructions
 
