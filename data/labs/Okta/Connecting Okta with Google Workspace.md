@@ -10,11 +10,11 @@ category: ['Okta', 'Google Workspace']
 
 ## Overview
 
-Okta is acting as our universal directory store. However, we want to use services from google workspace which require users to exist within the google workspace environment.
+Okta is acting as our universal directory store. However, we want to use services from Google. This requires users to exist within the Google Workspace environment.
 
-We also want to keep 1 set of credentials for SSO using our Okta environment.
+We also want to keep 1 set of credentials and use SSO with Okta.
 
-To solve this we will be connecting Google Workspace with Okta to replicate users into Google Workspace and maintain the same credentials for SSO.
+To configure this we will be connecting Google Workspace with Okta to replicate users into Google Workspace and maintain the same credentials for SSO.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ To solve this we will be connecting Google Workspace with Okta to replicate user
 2. Give the application a label
 3. Enter your domain associated with the Google Workspace
 4. Choose number of seats (licenses) - Here we put 6 to not go over our trial limit in Google Workspace
-5. Disable Powser plugin auto-submit - This is a password vaulting technique. We'll configure SSO after
+5. Disable browser plugin auto-submit - This is a password vaulting technique. We'll configure SSO after
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_27_33_10.webp)
 6. Choose Sign on method - We'll be going with SAML and setting it up in the next step
    ![](https://bui.blob.core.windows.net/labs/Lab_2022_08_27_35_18.webp)
