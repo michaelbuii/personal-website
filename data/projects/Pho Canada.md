@@ -9,10 +9,12 @@ category: ['Project']
 ---
 
 ![](https://bui.blob.core.windows.net/labs/Lab_2022_07_12_05_14.webp)
+## Link to the website
+https://phocanada.ca
 
 ## Overview
 
-This website was built for a restaurant to display their menu and photos of dishes that they offer. The website needed to look good displayed on mobile because most traffic comes from mobile google searches.
+This website was built for my family's restaurant to display their menu and photos of dishes that they offer. The website needed to look good displayed on mobile because most traffic comes from mobile google searches.
 
 Source Code: [GitHub](https://github.com/michaelbuii/Pho-Canada)
 
