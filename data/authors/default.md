@@ -11,11 +11,10 @@ github: https://github.com/michaelbuii
 
 # 👋 Hello!
 
-My name is Michael, a tech enthusiast who loves to learn and share knowledge. I created this website so I could share the new skills I learn in hopes that it will help somebody out there pick up a new skill. I will be documenting both IT and software skills on this blog.
+My name is Michael, a tech enthusiast with a continuous drive to learn. I created this website to document skills I pick up along my learning journey. I will be documenting both IT & software skills on this blog.
 
-I am naturally very curious about how things work. Ever since I built my first PC, I found satisfaction in learning how every component contributes to the overall build. After that I even took apart old laptops, I had laying around to gain understanding of how they worked.
-
-After college I was at a crossroads whether to pursue IT or web development. I ultimately chose to chase after IT certifications and found a new world of learning all intricacies of the systems that run our world. I have a deep appreciation for aesthetics of web design. For this reason, I still learn new skills that relate to web development in my free time.
+I currently work as an IT Specialist, but my passion for technology expands further beyond into cloud computing & in web development.
+I like to stay up to date on industry trends in both fields. As of late, you can find me playing in my AWS environment or reading up on the latest frontend framework trends.
 
 I hope you find some of the things that I share interesting and hopefully even learn something new.
 
