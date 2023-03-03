@@ -3,7 +3,7 @@ title: Weather App
 date: 2023-02-13
 tags: ['HTML', 'CSS', 'Javascript', 'React']
 draft: false
-summary: Website to gain experience working with Drupal
+summary: Website to gain experience working with React
 image: '/static/images/weather.png'
 category: ['Project']
 ---
